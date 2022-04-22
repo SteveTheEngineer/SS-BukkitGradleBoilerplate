@@ -31,16 +31,17 @@ repositories {
     // dmulloy2 repository, ProtocolLib
     maven("https://repo.dmulloy2.net/repository/public/")
 
+    // Steene Public repository, SS-Kotlin
+    // maven("https://mvn-public.steenesvc.cf/releases")
+
     // The PaperMC repository, which has the Paper API. Disabled by default
     // maven("https://papermc.io/repo/repository/maven-public/")
-
-    // TODO: SS-Kotlin maven repository
 }
 
 dependencies {
     // Kotlin example
     // implementation(kotlin("stdlib"))
-    // dependRuntimeOnly("me.ste.stevesseries.kotlin:kotlin:1.6.20")
+    // pluginRuntimeOnly("me.ste.stevesseries.kotlin:kotlin:1.6.20")
 
     // The Spigot API. A must for most of the plugins
     implementation("org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT")
