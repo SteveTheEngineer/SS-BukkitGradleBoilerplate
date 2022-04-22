@@ -40,7 +40,7 @@ repositories {
 dependencies {
     // Kotlin example
     // implementation(kotlin("stdlib"))
-    // pluginOnly("me.ste.stevesseries:kotlin:1.6.20")
+    // dependRuntimeOnly("me.ste.stevesseries.kotlin:kotlin:1.6.20")
 
     // The Spigot API. A must for most of the plugins
     implementation("org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT")

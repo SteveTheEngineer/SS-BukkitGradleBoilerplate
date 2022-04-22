@@ -3,6 +3,6 @@ rootProject.name = "SS-BukkitGradleBoilerplate"
 pluginManagement {
     repositories {
         gradlePluginPortal()
-        mavenLocal()
+        maven("https://mvn-public.steenesvc.cf/releases")
     }
-} // TODO
+}
