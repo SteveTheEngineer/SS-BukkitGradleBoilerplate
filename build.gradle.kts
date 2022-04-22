@@ -40,11 +40,11 @@ repositories {
 
 dependencies {
     // Kotlin example
-    // compileOnly(kotlin("stdlib"))
+    // implementation(kotlin("stdlib"))
     // pluginRuntimeOnly("me.ste.stevesseries.kotlin:kotlin:1.6.20")
 
     // The Spigot API. A must for most of the plugins
-    compileOnly("org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT")
+    implementation("org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT")
 
     // Bukkit Gradle is not limited to just the Spigot API. Anything else can be used, such as:
     //
@@ -52,7 +52,7 @@ dependencies {
     // paperDevBundle("1.18.2-R0.1-SNAPSHOT")
     //
     // Paper API:
-    // compileOnly("io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT")
+    // implementation("io.papermc.paper:paper-api:1.18.2-R0.1-SNAPSHOT")
 
     // ProtocolLib included as an example
     depend("com.comphenix.protocol:ProtocolLib:4.7.0")
