@@ -71,6 +71,9 @@ runServer {
 pluginDescription {
     // The main class of the plugin. This field is required to be set
     mainClass.set("me.ste.stevesseries.example.ExamplePlugin")
+    
+    // The api version
+    apiVersion.set("1.18")
 
     // The authors of the plugin
     authors.add("SteveTheEngineer")
