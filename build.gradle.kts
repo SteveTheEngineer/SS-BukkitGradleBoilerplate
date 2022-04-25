@@ -5,7 +5,7 @@ plugins {
     id("java-library")
 
     // This applies the plugin
-    id("me.ste.stevesseries.bukkitgradle") version "1.1"
+    id("me.ste.stevesseries.bukkitgradle") version "1.2"
 
     // paperweight-userdev, not enabled by default
     // id("io.papermc.paperweight.userdev") version "1.3.5"
@@ -61,7 +61,7 @@ dependencies {
 // Configure the development server
 runServer {
     // Paper is used as the development server by default
-    downloadUri.set("https://papermc.io/api/v2/projects/paper/versions/1.18.2/builds/302/downloads/paper-1.18.2-302.jar")
+    downloadUri.set("https://papermc.io/api/v2/projects/paper/versions/1.18.2/builds/312/downloads/paper-1.18.2-312.jar")
 
     // Add the nogui argument to disable the vanilla server window
     // serverArgs.add("nogui")
