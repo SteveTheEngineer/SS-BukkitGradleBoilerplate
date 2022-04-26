@@ -5,7 +5,7 @@ plugins {
     id("java-library")
 
     // This applies the plugin
-    id("me.ste.stevesseries.bukkitgradle") version "1.2"
+    id("me.ste.stevesseries.bukkitgradle") version "1.3"
 
     // paperweight-userdev, not enabled by default
     // id("io.papermc.paperweight.userdev") version "1.3.5"
