@@ -55,7 +55,7 @@ dependencies {
     // implementation("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
 
     // ProtocolLib example
-    // depend("com.comphenix.protocol:ProtocolLib:4.7.0")
+     // depend("com.comphenix.protocol:ProtocolLib:5.0.0-SNAPSHOT")
 
     // SS-GuiLibrary example
     // compileOnly("com.github.SteveTheEngineer.SS-GuiLibrary:guilib-api:0.0.0-mc1.18.2")
