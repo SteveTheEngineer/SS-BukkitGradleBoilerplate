@@ -12,7 +12,7 @@ plugins {
 }
 
 group = "me.ste.stevesseries" // The base package of your plugin
-version = "0.0.0-mc1.18.2" // The Steve's Series plugins use the version format API.MAJOR.MINOR-mcMINECRAFTVERSION. API is incremented each time there was a *BREAKING* API change
+version = "0.0.0-mc1.19.3" // The Steve's Series plugins use the version format API.MAJOR.MINOR-mcMINECRAFTVERSION. API is incremented each time there was a *BREAKING* API change
 description = "An example plugin that uses the Steve's Series Bukkit Gradle." // This becomes the description of the plugin, unless overridden in the pluginDescription block
 
 java {
