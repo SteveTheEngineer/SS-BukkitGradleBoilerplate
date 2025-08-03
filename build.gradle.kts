@@ -8,15 +8,15 @@ plugins {
     id("com.github.SteveTheEngineer.SS-BukkitGradle") version "1.4"
 
     // paperweight-userdev, not enabled by default
-    // id("io.papermc.paperweight.userdev") version "1.3.6"
+    // id("io.papermc.paperweight.userdev") version "2.0.0-beta.18"
 }
 
 group = "me.ste.stevesseries" // The base package of your plugin
-version = "0.0.0-mc1.19.3" // The Steve's Series plugins use the version format API.MAJOR.MINOR-mcMINECRAFTVERSION. API is incremented each time there was a *BREAKING* API change
-description = "An example plugin that uses the Steve's Series Bukkit Gradle." // This becomes the description of the plugin, unless overridden in the pluginDescription block
+version = "0.0.0-mc1.21.8" // The Steve's Series plugins use the version format API.MAJOR.MINOR-mcMINECRAFTVERSION. API is incremented each time there was a *BREAKING* API change
+description = "An example plugin that uses Steve's Series Bukkit Gradle." // This becomes the description of the plugin, unless overridden in the pluginDescription block
 
 java {
-    toolchain.languageVersion.set(JavaLanguageVersion.of(17))
+    toolchain.languageVersion.set(JavaLanguageVersion.of(21))
 }
 
 repositories {
@@ -44,18 +44,18 @@ dependencies {
     // softDepend("me.ste.stevesseries.kotlin:kotlin:1.8.0")
 
     // The Spigot API. A must for most of the plugins
-    implementation("org.spigotmc:spigot-api:1.19.3-R0.1-SNAPSHOT")
+    implementation("org.spigotmc:spigot-api:1.21.8-R0.1-SNAPSHOT")
 
     // Bukkit Gradle is not limited to just the Spigot API. Anything else can be used, such as:
     //
     // paperweight-userdev:
-    // paperDevBundle("1.19.3-R0.1-SNAPSHOT")
+    // paperDevBundle("1.21.8-R0.1-SNAPSHOT")
     //
     // Paper API:
-    // implementation("io.papermc.paper:paper-api:1.19.3-R0.1-SNAPSHOT")
+    // implementation("io.papermc.paper:paper-api:1.21.8-R0.1-SNAPSHOT")
 
     // ProtocolLib example
-     // depend("com.comphenix.protocol:ProtocolLib:5.0.0-SNAPSHOT")
+    // depend("com.comphenix.protocol:ProtocolLib:5.4.0-SNAPSHOT")
 
     // SS-GuiLibrary example
     // compileOnly("com.github.SteveTheEngineer.SS-GuiLibrary:guilib-api:0.0.0-mc1.18.2")
@@ -65,7 +65,7 @@ dependencies {
 // Configure the development server
 runServer {
     // Paper is used as the development server by default
-    downloadUri.set("https://api.papermc.io/v2/projects/paper/versions/1.19.3/builds/378/downloads/paper-1.19.3-378.jar")
+    downloadUri.set("https://api.papermc.io/v2/projects/paper/versions/1.21.8/builds/21/downloads/paper-1.21.8-21.jar")
 
     // Add the nogui argument to disable the vanilla server window
     // serverArgs.add("nogui")
@@ -73,11 +73,11 @@ runServer {
 
 // Paramters for the plugin's description file
 pluginDescription {
-    // The main class of the plugin. This field is required to be set
+    // The main class of the plugin. This field is required
     mainClass.set("me.ste.stevesseries.example.ExamplePlugin")
     
     // The api version
-    apiVersion.set("1.19")
+    apiVersion.set("1.21")
 
     // The authors of the plugin
     authors.add("SteveTheEngineer")
